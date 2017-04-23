@@ -1,0 +1,40 @@
+.content {
+    width: 100%;
+}
+
+.teste {
+    /*border: 1px solid black;*/
+    padding: 10px;
+}
+.side {
+  display: none;
+}
+@media (min-width: 992px) {
+    .side {
+        display: block;
+        content: " ";
+        position: fixed;
+        padding: 0;
+        /*border: 1px solid black;*/
+        height: 100%;
+        width: 25%;
+    }
+    .content {
+        position: fixed;
+        /*border: 1px solid black;*/
+        height: 100%;
+        width: 75%;
+    }
+}
+.menu {
+  display: none;
+}
+@media (max-width: 992px) {
+    .menu {
+        display: block;
+    }
+}
+img{
+    width: 20px;
+}
+
