@@ -4,13 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { BarTopComponent } from './bar-top/bar-top.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContentComponent } from './content/content.component';
 
-import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent
+    BarTopComponent,
+    FooterComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
